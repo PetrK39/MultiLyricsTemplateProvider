@@ -228,13 +228,13 @@
     <EmbeddedResource Include="Properties\Resources.ru-ru.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj">
-      <Project>{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}</Project>
-      <Name>PreferenceManagerLibrary</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MultiLyricsProviderInterface\MultiLyricsProviderInterface.csproj">
       <Project>{100c48d6-b8d5-46c4-a48e-73b83381cd49}</Project>
       <Name>MultiLyricsProviderInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj">
+      <Project>{dfbdfed6-67a3-43fb-9e06-33a62f87e35f}</Project>
+      <Name>PreferenceManagerLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

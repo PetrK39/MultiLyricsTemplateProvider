@@ -1,7 +1,7 @@
 This solution contains Interface and template provider project for MultiLyrics project
 
 # Known MultuLyrics providers
- - VocaDB provider
+ - [VocaDB provider](https://github.com/PetrK39/VocaDBMultiLyricsProvider)
  
 # Making your own
 

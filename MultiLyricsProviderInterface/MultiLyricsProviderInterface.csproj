@@ -33,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-	  <ProjectReference Include="..\..\..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj">
-		  <Project>{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}</Project>
-		  <Name>PreferenceManagerLibrary</Name>
-	  </ProjectReference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
       <Private>True</Private>
@@ -184,6 +180,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj">
       <Project>{d4b53dbc-22b6-417f-a5a3-33e256af730e}</Project>
+      <Name>PreferenceManagerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj">
+      <Project>{dfbdfed6-67a3-43fb-9e06-33a62f87e35f}</Project>
       <Name>PreferenceManagerLibrary</Name>
     </ProjectReference>
   </ItemGroup>

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateLyricsProvider", "TemplateLyricsProviderPlugin\TemplateLyricsProvider.csproj", "{204E0F73-07EC-46D8-9EAD-64F2D5F67B86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreferenceManagerLibrary", "..\..\PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj", "{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLyricsProviderInterface", "MultiLyricsProviderInterface\MultiLyricsProviderInterface.csproj", "{100C48D6-B8D5-46C4-A48E-73B83381CD49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreferenceManagerLibrary", "PreferenceManager\PreferenceManagerLibrary\PreferenceManagerLibrary.csproj", "{DFBDFED6-67A3-43FB-9E06-33A62F87E35F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{204E0F73-07EC-46D8-9EAD-64F2D5F67B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{204E0F73-07EC-46D8-9EAD-64F2D5F67B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{204E0F73-07EC-46D8-9EAD-64F2D5F67B86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{567C8AE1-F5DA-4A2E-A5CD-9B6D14BDDF2C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{100C48D6-B8D5-46C4-A48E-73B83381CD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{100C48D6-B8D5-46C4-A48E-73B83381CD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100C48D6-B8D5-46C4-A48E-73B83381CD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100C48D6-B8D5-46C4-A48E-73B83381CD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBDFED6-67A3-43FB-9E06-33A62F87E35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBDFED6-67A3-43FB-9E06-33A62F87E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBDFED6-67A3-43FB-9E06-33A62F87E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBDFED6-67A3-43FB-9E06-33A62F87E35F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
