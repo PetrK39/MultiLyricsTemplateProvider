@@ -171,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FoundTrack.cs" />
+    <Compile Include="ILocalisationProvider.cs" />
     <Compile Include="IMultiLyricsProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
